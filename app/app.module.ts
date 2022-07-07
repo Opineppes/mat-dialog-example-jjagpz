@@ -45,8 +45,6 @@ import {
   MatTooltipModule,
 } from '@angular/material';
 import {AppComponent} from './app.component';
-import {ConfirmationDialog} from './confirmation-dialog.component';
-import { AlertDialogComponent } from './alert-dialog/alert-dialog.component';
 
 
 /**
@@ -109,8 +107,8 @@ export class MaterialModule {}
     ReactiveFormsModule,
     BrowserAnimationsModule
   ],
-  declarations: [AppComponent,ConfirmationDialog, AlertDialogComponent],
-  entryComponents: [ConfirmationDialog, AlertDialogComponent],
+  declarations: [AppComponent],
+  entryComponents: [],
   bootstrap: [AppComponent],
   providers: []
 })
